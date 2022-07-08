@@ -615,8 +615,11 @@ margin-bottom: 0px;
     position: relative;
     overflow: hidden;
 }
-.image-section:hover .project-overlay {
+/* .image-section:hover .project-overlay {
     transform: translateY(0);
+} */
+.project-link:hover .project-overlay {
+     transform: translateY(0)
 }
 .image {
 
