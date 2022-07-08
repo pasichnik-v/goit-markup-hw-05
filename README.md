@@ -1,2 +1,1 @@
-# goit-markup-hw-05
-ДЗ N5
+https://pasichnik-v.github.io/goit-markup-hw-05/
