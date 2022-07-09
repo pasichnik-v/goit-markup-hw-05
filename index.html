@@ -47,7 +47,7 @@
     <main>
             <section class="section hero">
                 <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button type="button" class="hero-button">Заказать услугу</button>
+                <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
             </section>
         <section class="section features">
            <div class="main-futures container">
@@ -96,9 +96,24 @@
            <div class="main-exemple container">
             <h2 class="example-title">Чем мы занимаемся</h2>
             <ul class="example-list list">
-                <li class="item"><a href=""><img src="./images/box1.jpg" alt="бокс1" width="370"></a></li>
-                <li class="item"><a href=""><img src="./images/box2.jpg" alt="бокс2" width="370"></a></li>
-                <li class="item"><a href=""><img src="./images/box3.jpg" alt="бокс3" width="370"></a></li>
+                <li class="item">
+                    <div class="image-section">
+                        <a class="example-photo" href=""><img src="./images/box1.jpg" alt="бокс1" width="370"></a>
+                        <p class="example-text">Десктопные приложения</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="image-section">
+                        <a class="example-photo" href=""><img src="./images/box2.jpg" alt="бокс2" width="370"></a>
+                        <p class="example-text">Мобильные приложения</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="image-section">
+                        <a class="example-photo" href=""><img src="./images/box3.jpg" alt="бокс3" width="370"></a>
+                        <p class="example-text">Дизайнерские решения</p>
+                    </div>
+                </li>
             </ul>
            </div>
         </section>
@@ -266,7 +281,7 @@
                 <h2 class="clients-title">Постоянные клиенты</h2>
                 <ul class="list clients-list">
                     <li class="clients-block">
-                        <a class="clients-link" href="" width="170px" height="92px">
+                        <a class="clients-link" href="">
                             <svg class="clients-icon" aria-label="Ссылка на сайт клиента" width="160px" height="60px">
                                 <use href="./images/icons.svg#icon-logo-1"></use>
                             </svg>
@@ -355,6 +370,17 @@
             </div>
         </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            <button data-modal-close class="modal-close" type="button">
+                <svg class="modal-icon" aria-hidden="true" width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
