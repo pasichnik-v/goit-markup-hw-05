@@ -803,31 +803,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 .modal-close:hover,
 .modal-close:focus {
-    border: 1px solid var(--black-color);
+    /* border: 1px solid var(--black-color); */
     outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-
-/* 
-.icon-Logo-1 {
-    width: 1.7666015625em;
-}
-
-.icon-Logo-2 {
-    width: 1.7666015625em;
-}
-
-.icon-Logo-3 {
-    width: 1.7666015625em;
-}
-
-.icon-Logo-4 {
-    width: 1.7666015625em;
-}
-
-.icon-Logo-5 {
-    width: 1.7666015625em;
-}
-
-.icon-Logo-6 {
-    width: 1.7666015625em;
-} */
